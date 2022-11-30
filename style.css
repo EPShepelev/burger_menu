@@ -1,0 +1,45 @@
+.wrapper {
+  min-height: 100%;
+}
+
+.page {
+  padding: 70px 0 25px 0;
+}
+
+.page__section {
+  padding: 20px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.page__section--1 {
+  background-color: #008b08;
+}
+.page__section--2 {
+  background-color: #dcdc0d;
+}
+
+.page__section--3 {
+  background-color: #90ee09;
+}
+
+.page__title {
+  font-size: 38px;
+  line-height: 150%;
+  margin: 0 0 15px 0;
+}
+
+.page__subtitle {
+  font-size: 30px;
+  line-height: 150%;
+  margin: 0 0 10px 0;
+}
+
+.page__text {
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.page__text p {
+  margin: 0 0 10px 0;
+}
