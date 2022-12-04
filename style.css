@@ -49,6 +49,10 @@ li {
   margin: 0 0 10px 0;
 }
 
+body._lock {
+  overflow: hidden;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -233,6 +237,20 @@ body._touch .menu__list > li._active .menu__arrow {
   .menu__icon span {
     top: 50%;
     transform: scale(1) translate(0px, -50%);
+  }
+
+  .menu__icon._active span {
+    transform: scale(0) translate(0px, -50%);
+  }
+
+  .menu__icon._active::before {
+    top: 50%;
+    transform: rotate(-45deg) translate(0px, -50%);
+  }
+
+  .menu__icon._active::after {
+    bottom: 50%;
+    transform: rotate(45deg) translate(0px, 50%);
   }
 
   .menu__body {
